@@ -9,12 +9,14 @@ branches:
 
 before_install:
   - npm install -g hexo
-  - npm install -g firebase-tools
 
 install: 
   - npm install
 
 script: hexo generate
 
-after_success:
-  - firebase deploy --token $FIREBASE_TOKEN
+deploy:
+  skip_cleanup: true
+  provider: firebase
+  token:
+    secure: $FIREBASE_TOKEN

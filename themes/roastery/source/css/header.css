@@ -1,0 +1,27 @@
+header {
+    width: 100%;
+}
+
+nav {
+    background: #fdf6e3;
+    min-height: 40px;
+}
+
+nav a {
+    color: #839496;
+}
+
+.navbar-nav>li>a:hover {
+    background-color: rgba(147, 161, 161, 0.1);
+    opacity: 1.0;
+    color: #586e75;
+}
+
+#brandIcon {
+    position: relative;
+    top: -50px;
+}
+
+.navbar-toggler-icon>i {
+    padding: 5px 0;
+}

@@ -1,9 +1,14 @@
 header {
+    color: #586e75;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 20px;
+    font-size: 15px;
     width: 100%;
 }
 
 nav {
-    background: #fdf6e3;
+    background: #eee8d5;
+    /* background: #fdf6e3; */
     min-height: 40px;
 }
 
@@ -20,6 +25,7 @@ nav a {
 #brandIcon {
     position: relative;
     top: -50px;
+    z-index: 10;
 }
 
 .navbar-toggler-icon>i {

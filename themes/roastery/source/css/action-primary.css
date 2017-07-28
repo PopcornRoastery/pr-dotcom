@@ -1,0 +1,36 @@
+.action-primary {
+  background-image: url("../images/spilled-beans.png");
+  background-color: #586e75;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  min-height: 400px;
+  position: relative;
+  top: -100px;
+}
+
+@media(max-width: 767px) {
+  .action-primary {
+    min-height: 200px;
+    position: inherit;
+    top: inherit;
+  }
+}
+
+img#spilledBeans {
+  width: 100%;
+}
+
+.action-primary h2 {
+  color: #f2cf66;
+}
+
+.action-primary p {
+  color: #ffffff;
+}
+
+.action-primary button {}
+
+.btn.btn-primary {
+  background-color: #2aa198;
+}

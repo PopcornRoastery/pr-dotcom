@@ -1,0 +1,58 @@
+.action-signup {
+    background-color: #eee8d5;
+    color: #586e75;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    position: relative;
+    top: -100px;
+}
+
+@media(max-width: 767px) {
+  .action-primary {
+    position: inherit;
+    top: inherit;
+  }
+}
+
+.signup-title {
+    color: #586e75;
+    font-weight: 600;
+}
+
+.signup-subtitle {
+    color: #586e75;
+    font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;
+    opacity: 0.8;
+}
+
+.action-signup input {
+    background: #ffffff;
+    border: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border-radius: 0;
+    color: #586e75;
+    margin-right: 20px;
+    opacity: 0.6;
+    padding-left: 10px;
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+}
+
+.action-signup input:active, .action-signup input:focus {
+    background: #ffffff;
+    color: #586e75;
+    opacity: 1.0;
+}
+
+.action-signup input::placeholder {
+    color: #586e75;
+    opacity: 0.8;
+}
+
+.action-signup input::placeholder-shown {
+    color: #586e75;
+    opacity: 1.0;
+}

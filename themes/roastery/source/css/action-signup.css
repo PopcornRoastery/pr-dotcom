@@ -4,11 +4,11 @@
     padding-bottom: 40px;
     padding-top: 40px;
     position: relative;
-    top: -100px;
+     top: -100px; 
 }
 
 @media(max-width: 767px) {
-  .action-primary {
+  .action-signup {
     position: inherit;
     top: inherit;
   }

@@ -2015,8 +2015,22 @@ code {
     }
     body {
       border-top: 16px solid #ffa100;
-    }
+    } 
   } */
+
+.btn.btn-primary {
+  background-color: #2aa198;
+  border-color: rgba(42, 161, 152, 0.8);
+  opacity: 1.0;
+}
+
+.btn.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.btn.btn-primary:focus {
+  box-shadow: none;
+}
 
 .FlexContainerWrapper {
   display: flex;

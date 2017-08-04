@@ -75,3 +75,7 @@ deploy:
 
 # Disqus comments
 disqus_shortname: popcornroastery
+
+# Sitemap
+sitemap:
+    path: sitemap.xml

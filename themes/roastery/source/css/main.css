@@ -2021,6 +2021,7 @@ code {
 .btn.btn-primary {
   background-color: #2aa198;
   border-color: rgba(42, 161, 152, 0.8);
+  cursor: pointer;
   opacity: 1.0;
 }
 
@@ -2101,4 +2102,116 @@ article>footer {
 
 article>div.article-content>p {
   margin: 15px 0;
+}
+
+#popcornMachines {
+  background-image: url("../images/popcorn-machines.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  max-height: 300px;
+  min-height: 150px;
+}
+
+.pr-cards {
+  position: relative;
+  top: -50px;
+}
+
+.pr-card {
+  background: #eee8d5;
+  margin: 20px;
+  transition: all 0.2s ease-out;
+}
+
+.pr-card a,
+.pr-card a:visited {
+  cursor: pointer;
+  color: #657b83;
+}
+
+.pr-card a:hover,
+.pr-card a:active {
+  color: #ffffff;
+}
+
+.pr-card-content {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: block;
+  text-align: center!important;
+  height: 450px;
+  width: auto;
+}
+
+@media (max-width: 1199px) {
+  .pr-card-content {
+    height: 400px;
+  }
+}
+
+@media (max-width: 991px) {
+  .pr-card-content {
+    height: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  .pr-cards {
+    position: inherit;
+    top: inherit;
+  }
+  .pr-card {
+    margin: 10px;
+  }
+  .pr-card-content {
+    height: 250px;
+  }
+}
+
+@media (max-width: 575px) {
+  .pr-card {
+    background-color: inherit;
+  }
+  .pr-card-content {
+    background-color: #eee8d5;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+  }
+}
+
+.pr-card-content h4 {
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  position: absolute;
+}
+
+#beanCard {
+  background-image: url("/images/bean.svg");
+}
+
+#beanCard:hover {
+  background-color: #859900;
+  background-image: url("/images/bean-white.svg");
+}
+
+#equipmentCard {
+  background-image: url("/images/equipment.svg");
+}
+
+#equipmentCard:hover {
+  background-color: #6c71c4;
+  background-image: url("/images/equipment-white.svg");
+}
+
+#machineCard {
+  background-image: url("/images/machine.svg");
+}
+
+#machineCard:hover {
+  background-color: #268bd2;
+  background-image: url("/images/machine-white.svg");
 }

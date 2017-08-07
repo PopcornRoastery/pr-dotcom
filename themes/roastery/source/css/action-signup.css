@@ -4,14 +4,14 @@
     padding-bottom: 40px;
     padding-top: 40px;
     position: relative;
-     top: -100px; 
+    top: -100px;
 }
 
 @media(max-width: 767px) {
-  .action-signup {
-    position: inherit;
-    top: inherit;
-  }
+    .action-signup {
+        position: inherit;
+        top: inherit;
+    }
 }
 
 .signup-title {
@@ -35,13 +35,11 @@
     margin-right: 20px;
     opacity: 0.6;
     padding-left: 10px;
-    -webkit-transition: all 0.1s ease-out;
-    -moz-transition: all 0.1s ease-out;
-    -o-transition: all 0.1s ease-out;
     transition: all 0.1s ease-out;
 }
 
-.action-signup input:active, .action-signup input:focus {
+.action-signup input:active,
+.action-signup input:focus {
     background: #ffffff;
     color: #586e75;
     opacity: 1.0;
@@ -55,4 +53,14 @@
 .action-signup input::placeholder-shown {
     color: #586e75;
     opacity: 1.0;
+}
+
+@media(max-width: 576px) {
+    .signup-form input {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .signup-form .btn.btn-primary {
+        width: 100%;
+    }
 }

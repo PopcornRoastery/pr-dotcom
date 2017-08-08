@@ -1,0 +1,60 @@
+<div class="container-fluid FlexContainer action-primary">
+    <div class="FlexItem">
+        <h2>Learn how</h2>
+        <p>A popcorn machine can take your coffee game to the next level</p>
+        <a class="btn btn-primary" href="/start-here">Learn more</a>
+    </div>
+</div>
+
+<div class="container-fluid action-signup">
+    <div class="row justify-items-center">
+        <div id="popcornMachines" class="col text-center">
+            <!-- <img src="/images/popcorn-machines.png" alt="Air Popper" height="200px"> -->
+        </div>
+        <div class="col-12 col-md-8 col-lg-6 align-self-center">
+            <div class="signup">
+                <h3 class="signup-title">Coffee's more than just a cup!</h3>
+                <span class="signup-subtitle">Join the popcorn machine coffee roasting community</span>
+                <p id="signup-success" class="text-success"></p>
+                <p id="signup-error" class="text-danger"></p>
+                <form class="signup-form form-inline" id="signup-form" role="form" onsubmit="return signup(this)">
+                    <input class="form-control" name="firstName" type="text" placeholder="First Name" required>
+                    <input class="form-control" name="email" type="email" placeholder="Email Address" required>
+                    <button class="btn btn-primary" id="signup-button" type="submit">Join now</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="container-fluid pr-cards">
+    <div class="row justify-items-center">
+        <div class="col-12 col-sm-4">
+            <div class="pr-card">
+                <a href="/">
+                    <div id="machineCard" class="pr-card-content">
+                        <h4>Roasters</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-12 col-sm-4">
+            <div class="pr-card">
+                <a href="/">
+                    <div id="beanCard" class="pr-card-content">
+                        <h4>Green Coffee</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-12 col-sm-4">
+            <div class="pr-card">
+                <a href="/">
+                    <div id="equipmentCard" class="pr-card-content">
+                        <h4>Equipment</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

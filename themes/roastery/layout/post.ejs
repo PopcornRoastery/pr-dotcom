@@ -1,0 +1,11 @@
+<div class="container-fluid">
+    <div class="row">
+        <section class="offset-md-2 col-md-6">
+            <%- partial('_partial/article', { post: page, index: false}) %>
+                <%- partial('_partial/comments') %>
+        </section>
+        <aside class="col-md-2">
+            <%- partial('_partial/sidebar') %>
+        </aside>
+    </div>
+</div>

@@ -5,14 +5,16 @@
         <a class="btn btn-primary" href="/start-here">Learn more</a>
     </div>
 </div>
- 
+
 <div class="container-fluid action-signup">
     <div class="row justify-items-center">
-        <div class="col"></div>
-        <div class="col-12 col-md-8 col-lg-6">
+        <div id="popcornMachines" class="col text-center">
+            <!-- <img src="/images/popcorn-machines.png" alt="Air Popper" height="200px"> -->
+        </div>
+        <div class="col-12 col-md-8 col-lg-6 align-self-center">
             <div class="signup">
                 <h3 class="signup-title">Coffee's more than just a cup!</h3>
-                <span class="signup-subtitle">Join the popcorn machine roastering community</span>
+                <span class="signup-subtitle">Join the popcorn machine coffee roasting community</span>
                 <p id="signup-success" class="text-success"></p>
                 <p id="signup-error" class="text-danger"></p>
                 <form class="signup-form form-inline" id="signup-form" role="form" onsubmit="return signup(this)">
@@ -23,14 +25,36 @@
             </div>
         </div>
     </div>
-</div> 
+</div>
 
-<section id="articles" class="row justify-items-center">
-    <div class="col article-group">
-        recent
+<section class="container-fluid pr-cards">
+    <div class="row justify-items-center">
+        <div class="col-12 col-sm-4">
+            <div class="pr-card">
+                <a href="/">
+                    <div id="machineCard" class="pr-card-content">
+                        <h4>Roasters</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-12 col-sm-4">
+            <div class="pr-card">
+                <a href="/">
+                    <div id="beanCard" class="pr-card-content">
+                        <h4>Green Coffee</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-12 col-sm-4">
+            <div class="pr-card">
+                <a href="/">
+                    <div id="equipmentCard" class="pr-card-content">
+                        <h4>Equipment</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
     </div>
-    <div class="col article-group">
-        top rated 
-    </div>
-</section>    
-
+</section>

@@ -2215,3 +2215,40 @@ article>div.article-content>p {
   background-color: #268bd2;
   background-image: url("/images/machine-white.svg");
 }
+
+a.share-button {
+  color: #ffffff;
+  display: inline-block;
+  height: 40px;
+  line-height: 20px;
+  margin-top: 10px;
+  opacity: 0.8;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  width: 40px;
+}
+
+a.share-button:hover {
+  opacity: 1.0;
+}
+
+.email-share-button {
+  background: #000000;
+}
+
+.fb-share-button {
+  background: #3b5998;
+}
+
+.google-share-button {
+  background: #d34836;
+}
+
+.pinterest-share-button {
+  background: #bd081c;
+}
+
+.twitter-share-button {
+  background: #1da1f2;
+}

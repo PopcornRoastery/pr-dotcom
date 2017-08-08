@@ -8,14 +8,36 @@
         <%- post.content %>
     </div>
     <footer>
-        share
+        <section class="container-fluid">
+            <div class="row justify-items-center">
+                <div class="col text-center">
+                    <a class="share-button twitter-share-button" href="https://twitter.com/intent/tweet?text=Hello%20world" data-size="large"
+                        target="_blank">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a class="share-button pinterest-share-button" href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark"
+                        data-pin-custom="true" target="_blank">
+                        <i class="fa fa-pinterest"></i>
+                    </a>
+                    <a class="share-button fb-share-button" href="https://www.facebook.com/sharer/sharer.php?u=<%- url %>" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a class="share-button google-share-button" href="https://plus.google.com/share?url={URL}" target="_blank">
+                        <i class="fa fa-google-plus"></i>
+                    </a>
+                    <a class="share-button email-share-button" href="mailto:testing">
+                        <i class="fa fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
     </footer>
 </article>
 
 <!-- <% if (!index && post.comments && config.disqus_shortname){ %> -->
 <section id="comments">
-  <div id="disqus_thread">
-    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  </div>
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
 </section>
 <!-- <% } %> -->

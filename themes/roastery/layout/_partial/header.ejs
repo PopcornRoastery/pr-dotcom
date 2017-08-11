@@ -8,24 +8,33 @@
             </span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <span class="w-100">
-            </span>
-            <ul class="navbar-nav mr-auto w-100 justify-content-around">
-                <li class="nav-item"><a href="/start-here" class="nav-link">Start Here</a></li>
-                <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
-            </ul>
-            <span class="brand-placeholder w-50"></span>
-            <ul class="navbar-nav mr-auto w-100 justify-content-around">
-                <li class="nav-item"><a href="/blog" class="nav-link">Blog</a></li>
-                <li class="nav-item"><a href="/resources" class="nav-link">Resources</a></li>
-            </ul>
-            <ul class="navbar-nav mr-auto w-100 justify-content-end">
-                <li class="nav-item"><a class="nav-link" href="//twitter.com/popcornroastery"><i class="fa fa-lg fa-twitter"></i></a></li>
-                <li class="nav-item"><a class="nav-link" href="//www.pinterest.com/mrroaster/pins/"><i class="fa fa-lg fa-pinterest"></i></a></li>
-                <li class="nav-item"><a class="nav-link" href="//www.instagram.com/popcornroastery/"><i class="fa fa-lg fa-instagram"></i></a></li>
-                <li class="nav-item"><a class="nav-link" href="//www.facebook.com/popcornroastery/"><i class="fa fa-lg fa-facebook"></i></a></li>
-                <li class="nav-item"><a class="nav-link" href="//www.youtube.com/channel/UCGtBrQpqcG-exPvHN1CcVig"><i class="fa fa-lg fa-youtube"></i></a></li>
-            </ul>
+            <div class="w-100">
+                <div class="hidden-sm-down">
+                    <form>
+                        <label class="pr-search-label" for="prSearchInput"><i class="fa fa-search"></i></label>
+                        <input id="prSearchInput" name="q" class="pr-search-input" type="search" placeholder="<%= __('search') %>" results="0">
+                    </form>
+                </div>
+                 <div id="pr-search-results"> 
+                </div>
+            </div>
+        </div>
+        <ul class="navbar-nav mr-auto w-100 justify-content-around">
+            <li class="nav-item"><a href="/start-here" class="nav-link">Start Here</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
+        </ul>
+        <span class="brand-placeholder w-50"></span>
+        <ul class="navbar-nav mr-auto w-100 justify-content-around">
+            <li class="nav-item"><a href="/blog" class="nav-link">Blog</a></li>
+            <li class="nav-item"><a href="/resources" class="nav-link">Resources</a></li>
+        </ul>
+        <ul class="navbar-nav mr-auto w-100 justify-content-end">
+            <li class="nav-item"><a class="nav-link" href="//twitter.com/popcornroastery"><i class="fa fa-lg fa-twitter"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="//www.pinterest.com/mrroaster/pins/"><i class="fa fa-lg fa-pinterest"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="//www.instagram.com/popcornroastery/"><i class="fa fa-lg fa-instagram"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="//www.facebook.com/popcornroastery/"><i class="fa fa-lg fa-facebook"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="//www.youtube.com/channel/UCGtBrQpqcG-exPvHN1CcVig"><i class="fa fa-lg fa-youtube"></i></a></li>
+        </ul>
         </div>
     </nav>
     <div class="container hidden-sm-down">

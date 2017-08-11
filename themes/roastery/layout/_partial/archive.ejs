@@ -1,12 +1,12 @@
 <div class="container-fluid">
   <div class="row">
-    <section class="offset-md-2 col-md-6">
+    <section class="col-12 col-md-9 offset-xl-2 col-xl-6">
       <% page.posts.each(function (post) { %>
         <%- post.link %>
         <a href="<%- url_for(post.path) %>"><h3><%- post.title %></h3></a>
           <% }) %>
     </section>
-    <aside class="col-md-2">
+    <aside class="hidden-sm-down col-md-3 col-xl-2">
       <%- partial('sidebar') %>
     </aside>
   </div>

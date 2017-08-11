@@ -1,10 +1,19 @@
 <div class="container-fluid">
   <div class="row">
     <section class="col-12 col-md-9 offset-xl-2 col-xl-6">
-      <% page.posts.each(function (post) { %>
-        <%- post.link %>
-        <a href="<%- url_for(post.path) %>"><h3><%- post.title %></h3></a>
-          <% }) %>
+      <ul class="pr-blog">
+        <% page.posts.each(function (post) { %>
+          <%- post.link %>
+            <li class="pr-blog-post">
+              <a href="<%- url_for(post.path) %>">
+                <h3>
+                  <%- post.title %>
+                </h3>
+                <%- post.excerpt %>
+              </a>
+            </li>
+            <% }) %>
+      </ul>
     </section>
     <aside class="hidden-sm-down col-md-3 col-xl-2">
       <%- partial('sidebar') %>

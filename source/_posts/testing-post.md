@@ -1,5 +1,8 @@
 ---
 title: testing-post
-date: 2017-08-04 14:11:04
-tags:
 ---
+Awesome article summary
+<!-- more -->
+
+## exerpts...
+Have you ever wondered how hexo exerpts work?

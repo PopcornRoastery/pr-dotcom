@@ -80,9 +80,9 @@ disqus_shortname: popcornroastery
 sitemap:
     path: sitemap.xml
 
-#Minifiers
+# Minifiers
 html_minifier:
-  enable: true
+  enable: false
   ignore_error: false
   exclude:
 
@@ -103,7 +103,22 @@ image_minifier:
   enable: true
   interlaced: false
   multipass: true
-  optimizationLevel: 7
+  optimizationLevel: 0
   pngquant: true
   progressive: true
   exclude:
+
+# AMP
+generator_amp:
+  templateDir:  amp-template
+  assetDistDir: amp-dist
+  logo:
+    path:   sample/sample-logo.png
+    width:  600
+    height: 60
+  substituteTitleImage: 
+    path:   sample/sample-substituteTitleImage.png
+    width:  1024
+    height: 800
+  warningLog: true
+  validateAMP: true

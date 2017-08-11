@@ -82,7 +82,7 @@ sitemap:
 
 # Minifiers
 html_minifier:
-  enable: false
+  enable: true
   ignore_error: false
   exclude:
 
@@ -91,8 +91,16 @@ css_minifier:
   exclude: 
     - '*.min.css'
 
-js_minifier:
-  enable: true
+# Replaced with Uglify
+# js_minifier:
+#   enable: false
+#   mangle: true
+#   output:
+#   compress:
+#   exclude: 
+#     - '*min.js'
+
+uglify:
   mangle: true
   output:
   compress:
@@ -122,3 +130,8 @@ generator_amp:
     height: 800
   warningLog: true
   validateAMP: true
+
+# Search
+search:
+  path: search.json
+  field: all

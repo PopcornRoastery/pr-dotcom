@@ -1,4 +1,4 @@
-<header>
+<header id="siteHeader">
     <nav class="navbar navbar-toggleable-sm">
         <a class="navbar-brand hidden-md-up" href="/"><img alt="Brand" src="/images/icon.svg" height="30px" width="30px"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -10,11 +10,11 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="w-100">
                 <div class="hidden-sm-down">
-                    <form>
-                        <label class="pr-search-label" for="prSearchInput"><i class="fa fa-search"></i></label>
-                        <input id="prSearchInput" name="q" class="pr-search-input" type="search" placeholder="<%= __('search') %>" results="0">
+                    <form id="searchForm">
+                        <label id="searchLabel" for="searchInput"><i class="fa fa-search"></i></label>
+                        <input id="searchInput" name="q" type="search" placeholder="<%= __('search') %>" results="0">
                     </form>
-                    <div id="pr-search-results">
+                    <div id="searchResults">
                     </div>
                 </div>
             </div>

@@ -1,0 +1,81 @@
+#searchForm input[type=search] {
+  border: none;
+  background: none;
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  color: transparent;
+  cursor: pointer;
+  font-family: inherit;
+  margin: 10px;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+  width: 0px;
+}
+
+#searchForm input::-webkit-search-decoration,
+#searchForm input::-webkit-search-cancel-button {
+  display: none;
+}
+
+#searchForm input[type=search]:focus {
+  border-bottom: 2px solid #839496;
+  outline: none;
+  width: 80%;
+}
+
+#searchForm input[type=search]:focus {
+  width: 130px;
+  color: #586e75;
+  cursor: auto;
+}
+
+#searchForm input:-moz-placeholder,
+#searchForm input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+#searchLabel {
+  height: 100%;
+  opacity: 0.8;
+}
+
+#searchLabel:hover {
+  cursor: pointer;
+  opacity: 1.0;
+}
+
+#searchResults {
+  background: #ffffff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+  position: absolute;
+  left: 32px;
+  min-width: 200px;
+  max-width: 40%;
+  z-index: 20;
+}
+
+#searchResults ul {
+  list-style: none;
+  padding: 0 10px;
+}
+
+#searchResults ul li {
+  max-height: 50px;
+  overflow: hidden;
+  overflow-wrap: ellipse;
+  padding: 5px 0;
+}
+
+#searchResults .search-result-title {
+  color: #586e75;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#searchResults .search-result {
+  color: #839496;
+  font-size: 0.8em;
+}

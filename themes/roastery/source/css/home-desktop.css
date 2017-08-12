@@ -1,0 +1,21 @@
+#primaryCallToAction {
+    background-image: url("../images/spilled-beans@5x.png");
+}
+
+@media (max-width: 1199px) {
+    #primaryCallToAction {
+        background-image: url("../images/spilled-beans@10x.png");
+    }
+    #cardNav .pr-card-content {
+        height: 400px;
+    }
+}
+
+@media (max-width: 991px) {
+    #primaryCallToAction {
+        /* background-image: url("../images/spilled-beans@x.png"); */
+    }
+    #cardNav .pr-card-content {
+        height: 300px;
+    }
+}

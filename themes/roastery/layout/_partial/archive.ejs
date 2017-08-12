@@ -1,18 +1,17 @@
 <div class="container-fluid">
   <div class="row">
     <section class="col-12 col-md-9 offset-xl-2 col-xl-6">
-      <ul class="pr-blog">
+      <ul id="postList">
         <% page.posts.each(function (post) { %>
-          <%- post.link %>
-            <li class="pr-blog-post">
-              <a href="<%- url_for(post.path) %>">
-                <h3>
-                  <%- post.title %>
-                </h3>
-                <%- post.excerpt %>
-              </a>
-            </li>
-            <% }) %>
+        <%- post.link %>
+          <li class="pr-blog-post">
+            <a href="<%- url_for(post.path) %>">
+              <h3><%- post.title %></h3>
+              <!-- note: excerpt is in <p> -->
+              <%- post.excerpt %>
+            </a>
+          </li>
+        <% }) %>
       </ul>
     </section>
     <aside class="hidden-sm-down col-md-3 col-xl-2">

@@ -1,0 +1,152 @@
+#primaryCallToAction {
+    align-items: left;
+    background-color: #586e75;
+    background-image: url("../images/spilled-beans.png");
+    background-position: center bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 400px;
+    padding: 10%;
+    position: relative;
+    top: -100px;
+}
+
+#primaryCallToAction>div {
+    max-width: 100%;
+}
+
+#primaryCallToAction h2 {
+    color: #f2cf66;
+}
+
+#primaryCallToAction p {
+    color: #ffffff;
+}
+
+#secondaryCallToAction {
+    background-color: #eee8d5;
+    color: #586e75;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    position: relative;
+    top: -100px;
+}
+
+#secondaryCallToAction h3 {
+    color: #586e75;
+    font-weight: 600;
+}
+
+#secondaryCallToAction .subtitle {
+    color: #586e75;
+    font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;
+    opacity: 0.8;
+}
+
+#secondaryCallToAction input {
+    background: #ffffff;
+    border: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border-radius: 0;
+    color: #586e75;
+    margin-right: 20px;
+    opacity: 0.6;
+    padding-left: 10px;
+    transition: all 0.1s ease-out;
+}
+
+#secondaryCallToAction input:active,
+#secondaryCallToAction input:focus {
+    background: #ffffff;
+    color: #586e75;
+    opacity: 1.0;
+}
+
+#secondaryCallToAction input::placeholder {
+    color: #586e75;
+    opacity: 0.8;
+}
+
+#secondaryCallToAction input::placeholder-shown {
+    color: #586e75;
+    opacity: 1.0;
+}
+
+#secondaryCallToAction #popcornMachines {
+    background-image: url("../images/popcorn-machines.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    max-height: 300px;
+    min-height: 150px;
+}
+
+#cardNav {
+    position: relative;
+    top: -50px;
+}
+
+#cardNav .pr-card {
+    background: #eee8d5;
+    margin: 20px;
+    transition: all 0.2s ease-out;
+}
+
+#cardNav .pr-card a,
+#cardNav .pr-card a:visited {
+    cursor: pointer;
+    color: #657b83;
+}
+
+#cardNav .pr-card a:hover,
+#cardNav .pr-card a:active {
+    color: #ffffff;
+}
+
+#cardNav .pr-card-content {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: block;
+    text-align: center!important;
+    height: 450px;
+    width: auto;
+}
+
+#cardNav .pr-card-content h4 {
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: absolute;
+}
+
+#beanCard {
+    background-image: url("/images/bean.svg");
+}
+
+#beanCard:hover {
+    background-color: #859900;
+    background-image: url("/images/bean-white.svg");
+}
+
+#equipmentCard {
+    background-image: url("/images/equipment.svg");
+}
+
+#equipmentCard:hover {
+    background-color: #6c71c4;
+    background-image: url("/images/equipment-white.svg");
+}
+
+#machineCard {
+    background-image: url("/images/machine.svg");
+}
+
+#machineCard:hover {
+    background-color: #268bd2;
+    background-image: url("/images/machine-white.svg");
+}

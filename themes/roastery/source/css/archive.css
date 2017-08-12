@@ -1,0 +1,80 @@
+#postList {
+    margin: 0;
+    padding: 0;
+}
+
+#postList li {
+    position: relative;
+    list-style-type: none;
+    background-color: #eee8d5;
+    margin-bottom: 10px;
+}
+
+#postList li>a {
+    padding: 10px 20px;
+    display: block;
+}
+
+#postList li h3 {
+    background-color: #dc322f;
+    position: relative;
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 2px;
+    line-height: normal;
+    display: inline-block;
+    margin-top: 0;
+    margin-left: -25px;
+    padding: 5px 10px 5px 25px;
+    color: white;
+    white-space: nowrap;
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+    opacity: 0.8;
+    -webkit-backface-visibility: hidden;
+}
+
+#postList li h3::before {
+    color: white;
+    content: '»';
+    position: absolute;
+    opacity: 0.0;
+    left: -5px;
+    top: 4px;
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+}
+
+#postList li h3::after {
+    content: " ";
+    display: block;
+    border-bottom: 4px solid #CCC;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -4px;
+    border-left: 5px solid transparent;
+    left: 0;
+    border-bottom-color: #b9221f;
+}
+
+#postList li>a:hover {
+    background-color: #e2dfcd;
+}
+
+#postList li>a:hover h3 {
+    opacity: 1.0;
+}
+
+#postList li p {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 5px 10px 0;
+    color: #657b83;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

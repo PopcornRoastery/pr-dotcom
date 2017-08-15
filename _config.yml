@@ -111,7 +111,7 @@ image_minifier:
   enable: true
   interlaced: false
   multipass: true
-  optimizationLevel: 7 # 0 to 7
+  optimizationLevel: 0 # 0 to 7
   pngquant: true
   progressive: true
   exclude:
@@ -138,3 +138,11 @@ generator_amp:
 search:
   path: search.json
   field: all
+
+# Feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: false
+  hub:
+  content: true

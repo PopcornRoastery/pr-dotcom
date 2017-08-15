@@ -6,11 +6,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Popcorn Roastery</title>
 
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="">
+    <% if(is_home()) { %>
+    <meta name="description" content="testing">
+    <title>Popcorn Roastery</title>
+    <% } else { %>
+        <% if(page.title) { %>
+        <title><%- page.title %></title>
+        <% } else { %>
+        <title>Popcorn Roastery</title>
+        <% } %>
+        <% if(page.description) { %>
+        <meta name="description" content="<%- page.description %>">
+        <% } %>
+    <% } %>
 
     <meta name="robots" content="noindex,nofollow">
     <meta name="mobile-web-app-capable" content="yes">

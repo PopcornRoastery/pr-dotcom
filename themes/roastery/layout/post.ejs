@@ -1,10 +1,10 @@
 <div class="container-fluid">
     <div class="row">
-        <section class="col-12 col-md-8 offset-xl-1 col-xl-7">
+        <section class="col-12 col-md-8 ml-xl-auto col-xl-7">
             <%- partial('_partial/article', { post: page, index: false}) %>
             <%- partial('_partial/comments') %>
         </section>
-        <aside class="hidden-sm-down col-md-4 col-xl-3">
+        <aside class="d-none d-md-block col-md-4 col-xl-3 mr-auto">
             <%- partial('_partial/sidebar') %>
         </aside>
     </div>

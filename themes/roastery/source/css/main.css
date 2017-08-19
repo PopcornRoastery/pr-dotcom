@@ -232,3 +232,7 @@ a.share-button:hover {
 #twitterShareButton {
   background: #1da1f2;
 }
+
+#contactForm {
+  margin-bottom: 40px;
+}

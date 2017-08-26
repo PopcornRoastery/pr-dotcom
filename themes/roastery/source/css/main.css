@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'social-icons';
-  src:  url('/fonts/social-icons.eot?4blvnj');
-  src:  url('/fonts/social-icons.eot?4blvnj#iefix') format('embedded-opentype'),
-    url('/fonts/social-icons.ttf?4blvnj') format('truetype'),
-    url('/fonts/social-icons.woff?4blvnj') format('woff'),
-    url('/fonts/social-icons.svg?4blvnj#social-icons') format('svg');
+  src:  url('/fonts/social-icons.eot?4hpqc7');
+  src:  url('/fonts/social-icons.eot?4hpqc7#iefix') format('embedded-opentype'),
+    url('/fonts/social-icons.ttf?4hpqc7') format('truetype'),
+    url('/fonts/social-icons.woff?4hpqc7') format('woff'),
+    url('/fonts/social-icons.svg?4hpqc7#social-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.si-search:before {
+  content: "\e902";
+}
 .si-google-plus:before {
   content: "\e900";
 }

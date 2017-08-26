@@ -94,6 +94,7 @@
     background: #eee8d5;
     margin: 20px;
     transition: all 0.2s ease-out;
+    text-align: center;
 }
 
 #cardNav .pr-card a,
@@ -117,36 +118,42 @@
     width: auto;
 }
 
-#cardNav .pr-card-content h4 {
-    bottom: 30px;
-    left: 50%;
-    transform: translate(-50%, 0);
-    position: absolute;
-}
-
-#beanCard {
-    background-image: url("/images/bean.svg");
+#cardNav .pr-card h4 {
+    padding: 10px 0;
 }
 
 #beanCard:hover {
     background-color: #859900;
-    background-image: url("/images/bean-white.svg");
 }
 
-#equipmentCard {
-    background-image: url("/images/equipment.svg");
+#beanCard .pr-card-content {
+    background-image: url("/images/bean.svg");
+}
+
+#beanCard:hover .pr-card-content {
+    background-image: url("/images/bean-white.svg");
 }
 
 #equipmentCard:hover {
     background-color: #6c71c4;
-    background-image: url("/images/equipment-white.svg");
 }
 
-#machineCard {
-    background-image: url("/images/machine.svg");
+#equipmentCard .pr-card-content {
+    background-image: url("/images/equipment.svg");
+}
+
+#equipmentCard:hover .pr-card-content {
+    background-image: url("/images/equipment-white.svg");
 }
 
 #machineCard:hover {
     background-color: #268bd2;
+}
+
+#machineCard .pr-card-content {
+    background-image: url("/images/machine.svg");
+}
+
+#machineCard:hover .pr-card-content {
     background-image: url("/images/machine-white.svg");
 }

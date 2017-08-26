@@ -1,5 +1,7 @@
 ---
 title: Privacy Policy
+date: 2017-08-26
+description: This page details Popcorn Roastery's privacy policy.
 ---
 
 __EFFECTIVE DATE: AUGUST 15, 2017__

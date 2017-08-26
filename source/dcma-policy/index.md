@@ -1,6 +1,7 @@
 ---
 title: DCMA Policy
-description: 
+date: 2017-08-26
+description: This page details Popcorn Roastery's DCMA policy.
 ---
 
 __Digital Millenium Copyright Act Notice__

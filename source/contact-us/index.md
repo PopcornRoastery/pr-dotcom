@@ -1,6 +1,10 @@
 ---
-title: contact-us
+title: Contact Us
+date: 2017-08-26
+description: Contact us on this page! 
 ---
+
+Would you like to get in touch with us? Please, fill out the form below, and we will do our best to get back with you when we are able to do so.
 
 <form id="contactForm" role="form">
     <input class="form-control" id="email" name="email" placeholder="Email Address" type="text" aria-label="Email Adress" />

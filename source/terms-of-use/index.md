@@ -1,8 +1,10 @@
 ---
 title: Terms of Use
+date: 2017-08-26
+description: This page details Popcorn Roastery's Terms of Use.
 ---
 
-__LAST MODIFIED AUGUST 15, 2017__
+__LAST MODIFIED AUGUST 26, 2017__
 
 1. BINDING EFFECT. This is a binding agreement. By using the Internet site located at https://www.popcornroastery.com (the “Site” or “Service”) or any services provided in connection with the Site, you agree to abide by these Terms of Use, as they may be amended by Fjellman Management, LLC (“Company”) from time to time. Company will post a notice on the Site any time these Terms of Use have been changed or otherwise updated.
 2. PRIVACY POLICY. Company respects your privacy and permits you to control the treatment of your personal information. A complete statement of Company’s current privacy policy can be found by clicking the “privacy” link at the bottom of the page. Company’s privacy policy is expressly incorporated into this Agreement by this reference.

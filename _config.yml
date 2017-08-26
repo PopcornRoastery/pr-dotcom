@@ -116,24 +116,6 @@ image_minifier:
   progressive: true
   exclude:
 
-# AMP
-generator_amp:
-  assetDistDir: amp
-  cssFilePath: css/amp.css
-  generateAmpPath: /amp/:archive_dir/:title/index.html
-  logo:
-    path:   images/sample-logo.png
-    width:  600
-    height: 60
-  substituteTitleImage: 
-    path:   images/sample-substituteTitleImage.png
-    width:  1024
-    height: 800
-  templateDir:  themes/roastery/amp
-  templateFilePath: amp.ejs
-  warningLog: true
-  validateAMP: true
-
 # Search
 search:
   path: search.json

@@ -11,7 +11,7 @@
         <section class="container-fluid">
             <div class="row justify-items-center">
                 <div class="col text-center">
-                    <a id="twitterShareButton" class="share-button" href="https://twitter.com/intent/tweet?text=Hello%20world" data-size="large"
+                    <a id="twitterShareButton" class="share-button" href="https://twitter.com/intent/tweet?text=<%- page.title %>&url=<%- url %>&via=PopcornRoastery" data-size="large"
                         target="_blank" rel="noopener" aria-label="Share on Twitter">
                         <i class="si-twitter" aria-hidden="true"></i>
                     </a>
@@ -23,7 +23,7 @@
                         rel="noopener" aria-label="Share on Facebook">
                         <i class="si-facebook" aria-hidden="true"></i>
                     </a>
-                    <a id="googleShareButton" class="share-button" href="https://plus.google.com/share?url={URL}" target="_blank" rel="noopener"
+                    <a id="googleShareButton" class="share-button" href="https://plus.google.com/share?url=<%- url %>" target="_blank" rel="noopener"
                         aria-label="Share on Google Plus">
                         <i class="si-google-plus" aria-hidden="true"></i>
                     </a>

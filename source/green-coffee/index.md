@@ -2,7 +2,7 @@
 title: Green Coffee
 date: 2017-09-01
 image: images/banner.svg
-description:
+description: Read this overview green coffee beans to to help you start making coffee that's tailored to you, cheaper to drink, and stands up to the test of time!
 ---
 
 ## What is the purpose of buying green coffee?
@@ -56,4 +56,3 @@ Let's not get carried away, please! This isn't to say that there's no real expir
 Learning to get started with anything can be overwelming, am I right? Actually it's not that bad. 
 
 ## Learn how to roast great coffee -->
-

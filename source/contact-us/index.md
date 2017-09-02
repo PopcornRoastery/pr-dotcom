@@ -1,7 +1,7 @@
 ---
 title: Contact Us
 date: 2017-08-26
-description: Contact us on this page! 
+description: Contact us at Popcorn Roastery on this page! 
 ---
 
 Would you like to get in touch with us? Please, fill out the form below, and we will do our best to get back with you when we are able to do so.

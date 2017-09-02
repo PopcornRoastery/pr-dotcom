@@ -12,7 +12,6 @@
 i {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'social-icons' !important;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -86,6 +85,7 @@ h2 {
 .btn.btn-primary {
   background-color: #2aa198;
   border-color: rgba(42, 161, 152, 0.8);
+  border-radius: 0;
   cursor: pointer;
   opacity: 1.0;
 }
@@ -219,24 +219,6 @@ article p {
   margin: 15px 0
 }
 
-article pre {
-  background-color: #f3f3f3;
-  border-radius: 0;
-  border: none;
-  color: #586e75;
-  border-left: 6px solid #e6e6e6
-}
-
-article .plain {
-  white-space: pre;
-  white-space: pre-wrap
-}
-
-article .plain.mono {
-  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
-  font-size: 13px
-}
-
 article blockquote {
   border-left: 6px solid #e6e6e6
 }
@@ -247,9 +229,16 @@ article blockquote p {
   font-size: 15px
 }
 
-article hr {
-  border-top: 2px solid #dad5c3;
-  border-bottom: none
+article>header.background-banner {
+  border-bottom: inherit;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+}
+
+article>header.background-banner h1 {
+  color: #ffffff;
 }
 
 article>footer {

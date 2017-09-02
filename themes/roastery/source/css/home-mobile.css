@@ -37,13 +37,8 @@
     #primaryCallToAction {
         background-image: url("../images/spilled-beans.png");
     }
-    #cardNav .pr-card {
-        background-color: inherit;
-    }
     #cardNav .pr-card-content {
-        background-color: #eee8d5;
         margin-left: auto;
         margin-right: auto;
-        width: 180px;
     }
 }

@@ -14,7 +14,7 @@ timezone:	US/Central
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://popcornroastery.com
 root: /
-permalink: :archive_dir/:title/index.html
+permalink: :archive_dir/:title/
 permalink_defaults:
   lang: en
   archive_dir: blog

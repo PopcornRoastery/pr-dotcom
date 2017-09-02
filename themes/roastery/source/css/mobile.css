@@ -3,7 +3,7 @@ article {
 }
 
 article>header.background-banner {
-    border-bottom: 2px solid rgba(147, 161, 161, 0.5);;
+    border-bottom: 2px solid rgba(147, 161, 161, 0.5);
     background-image: none !important;
     background-position: inherit;
     background-size: inherit;
@@ -13,4 +13,12 @@ article>header.background-banner {
 
 article>header.background-banner h1 {
     color: inherit;
+}
+
+article>.article-content .form-inline input {
+    margin-right: inherit;
+}
+
+form.form-inline .btn.btn-primary {
+    width: 100%;
 }

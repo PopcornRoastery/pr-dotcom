@@ -246,6 +246,10 @@ article>footer {
   border-top: 2px solid rgba(147, 161, 161, 0.5);
 }
 
+article>.article-content .form-inline input {
+  margin-right: 20px;
+}
+
 a.share-button {
   color: #ffffff;
   display: inline-block;

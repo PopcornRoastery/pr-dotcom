@@ -5,7 +5,7 @@
 # Site
 title: Popcorn Roastery
 subtitle: Roast Coffee with a Popcorn Machine!
-description: PopcornRoastery.com is helps you teaches you all you need to know about roasting coffee with a popcorn machine.
+description: PopcornRoastery.com will assist you with roasting coffee with a popcorn machine. 
 author: Jordan Fjellman
 language: en
 timezone:	US/Central
@@ -28,7 +28,6 @@ archive_dir: blog
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -60,18 +59,13 @@ time_format: HH:mm:ss
 
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 10
+per_page: 0
 pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: roastery
-
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type:
 
 # Disqus comments
 disqus_shortname: popcornroastery
@@ -90,15 +84,6 @@ css_minifier:
   enable: true
   exclude: 
     - '*.min.css'
-
-# Replaced with Uglify
-# js_minifier:
-#   enable: false
-#   mangle: true
-#   output:
-#   compress:
-#   exclude: 
-#     - '*min.js'
 
 uglify:
   mangle: true
@@ -126,5 +111,4 @@ feed:
   type: atom
   path: atom.xml
   limit: false
-  hub:
   content: true

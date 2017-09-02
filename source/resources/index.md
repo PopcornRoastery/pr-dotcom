@@ -21,8 +21,8 @@ Link to green coffee overview can be found [here](/green-coffee).
 
 Link to equipment overview can be found [here](/equipment).
 
-## Learning Materials
+<!--## Learning Materials
 
 ### Books to read
 
-### Videos to watch
+### Videos to watch-->

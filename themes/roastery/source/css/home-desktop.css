@@ -12,9 +12,6 @@
 }
 
 @media (max-width: 991px) {
-    #primaryCallToAction {
-        /* background-image: url("../images/spilled-beans@x.png"); */
-    }
     #cardNav .pr-card-content {
         height: 300px;
     }

@@ -2,6 +2,7 @@
 title: About
 date: 2017-08-26
 description: Popcorn Roastery is here to help you learn about roasting coffee with popcorn machines, but there's a little more to it than that.
+image: /images/banner_dark.svg
 ---
 
 Welcome to PopcornRoastery.com! Iâ€™m so glad that you are here. Let me tell you a little bit about the website.
@@ -30,7 +31,7 @@ The community around roasting coffee with a popcorn machine is thriving. If youâ
 <div class="container-fluid">
     <div class="row">
         <div class="col text-center">
-            <a class="btn btn-primary" href="/">Join Community</a>
+            <a class="btn btn-primary" href="/community">Join Community</a>
         </div>
     </div>
 </div>

@@ -2,7 +2,7 @@
 title: Equipment
 date: 2017-09-01
 image: /equipment/images/banner.svg
-description: Read this overview to coffee roasting equipment progress from beginner to expert popcorn machine coffee roaster!
+description: Read this overview to coffee roasting equipment to progress from beginner to expert popcorn machine coffee roaster!
 ---
 It doesn't take a lot to get started roasting your own coffee with popcorn machine. All you need is a popcorn machine, green coffee beans, and...
 

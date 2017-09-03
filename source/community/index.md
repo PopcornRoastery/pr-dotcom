@@ -2,7 +2,7 @@
 title: Community
 date: 2017-09-01
 description: The popcorn machine roasting community is a friendly and active one. Learn how you can participate today!
-image: images/banner.svg
+image: /community/images/banner.svg
 ---
 
 Online communities are formed for any number of reasons. At PopcornRoastery.com, we've tried to build a community that loves to build relationships, is kean to learn, and is open to sharing information with others. While it's great to make better coffee, it would all be for naught if you couldn't share the experience with others!

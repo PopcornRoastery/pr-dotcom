@@ -1,5 +1,10 @@
 <article>
+    
+    <% if (post.image) { %>
+    <header class="background-banner" style="background-image: url('<%- post.image %>')">
+    <% } else {%>
     <header>
+    <% } %>
         <h1>
             <%- post.title %>
         </h1>

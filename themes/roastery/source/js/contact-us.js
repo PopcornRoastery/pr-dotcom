@@ -13,7 +13,7 @@
         }, onSetComplete);
 
         function onSetComplete() {
-            document.location.href = '/';
+            document.location.href = '/contact-us/thank-you/';
         }
     });
 })(jQuery, firebase);

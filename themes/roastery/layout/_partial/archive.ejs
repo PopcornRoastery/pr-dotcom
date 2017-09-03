@@ -7,8 +7,7 @@
           <li class="pr-blog-post">
             <a href="<%- url_for(post.path) %>">
               <h3><%- post.title %></h3>
-              <!-- note: excerpt is in <p> -->
-              <%- post.excerpt %>
+              <p><%- post.description %></p>
             </a>
           </li>
         <% }) %>

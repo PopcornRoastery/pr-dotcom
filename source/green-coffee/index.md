@@ -1,7 +1,7 @@
 ---
 title: Green Coffee
 date: 2017-09-01
-image: images/banner.svg
+image: /green-coffee/images/banner.svg
 description: Read this overview of green coffee beans to help you start making coffee that's tailored to you, cheaper to drink, and stands up to the test of time!
 ---
 

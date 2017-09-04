@@ -9,8 +9,7 @@ Welcome to PopcornRoastery.com! I’m so glad that you are here. Let me tell you
 
 I you were to guess that I love the taste, smell, and fine details of coffee to the point of a near obsession, well, you would be right! I absolutely love discovering the differences between a great cup of coffee, and well, a not-so-great one. But the reason I’ve started Popcorn Roastery is because of the relationships built while drinking a cup of coffee make it so much more than just a cup!
 
-It may sound absurd to think of coffee as something more than what it appears to be - a single drink, but it’s true! Just look around you. Coffee is everywhere. If you want to connect with someone quickly, the best way to do that is through commonalities; what’s more common than coffee? Coffee plus time could be the equation you need to connect with another human being!
-Is that a stretch? Maybe, but it’s at least a great conversation starter.
+It may sound absurd to think of coffee as something more than what it appears to be - a single drink, but it’s true! Just look around you. Coffee is everywhere. If you want to connect with someone quickly, the best way to do that is through commonalities; what’s more common than coffee? Coffee plus time could be the equation you need to connect with another human being! Is that a stretch? Maybe, but it’s at least a great conversation starter.
 
 So you “just wanted to find out what this coffee website is about, and are wondering how you accidentally click on an ‘How-To Connect with Others’ article”? Hang in there. 
 

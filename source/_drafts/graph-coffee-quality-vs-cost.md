@@ -1,8 +1,8 @@
 ---
 title: "Graph: Coffee Quality vs Cost"
-date:
+date: 2017-09-04
 description: This is a test.
-tags: Green Coffee, Pricing
+tags: Coffee Beans, Pricing
 ---
 This is our test draft, and will be worked on shortly.
 

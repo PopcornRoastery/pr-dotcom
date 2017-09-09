@@ -205,13 +205,15 @@
 }
 
 .pr-recent-posts-list-item {
-  display: block;
-  list-style-type: none;
-  padding-left: 18px;
-  line-height: 46px;
+  border-top: 1px solid rgba(0, 0, 0, .1);
   color: #93a1a1;
+  display: block;
   font-size: 17px;
   font-weight: 300;
+  list-style-type: none;
+  padding-bottom: 10px;
+  padding-left: 18px;
+  padding-top: 10px;
   -webkit-transition: all 0.1s ease-out;
   -moz-transition: all 0.1s ease-out;
   -o-transition: all 0.1s ease-out;

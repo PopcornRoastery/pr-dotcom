@@ -16,32 +16,31 @@
 }
 
 #postList li h3 {
+    backface-visibility: hidden;
     background-color: #dc322f;
-    position: relative;
-    font-weight: normal;
-    font-size: 24px;
-    margin-bottom: 2px;
-    line-height: normal;
-    display: inline-block;
-    margin-top: 0;
-    margin-left: -25px;
-    padding: 5px 10px 5px 25px;
     color: white;
-    white-space: nowrap;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: normal;
+    margin-bottom: 2px;
+    margin-left: -25px;
+    margin-top: 0;
+    opacity: 0.8;
+    padding: 5px 10px 5px 25px;
+    position: relative;
     -webkit-transition: all 0.1s ease-out;
     -moz-transition: all 0.1s ease-out;
     -o-transition: all 0.1s ease-out;
     transition: all 0.1s ease-out;
-    opacity: 0.8;
-    -webkit-backface-visibility: hidden;
 }
 
 #postList li h3::before {
     color: white;
     content: '»';
-    position: absolute;
-    opacity: 0.0;
     left: -5px;
+    opacity: 0.0;
+    position: absolute;
     top: 4px;
     -webkit-transition: all 0.1s ease-out;
     -moz-transition: all 0.1s ease-out;

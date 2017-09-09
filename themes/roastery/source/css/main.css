@@ -159,6 +159,7 @@ footer#siteFooter #copyright {
 
 article {
   background: #fbfbfb;
+  color: #545454;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);

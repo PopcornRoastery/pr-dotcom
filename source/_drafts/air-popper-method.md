@@ -1,7 +1,9 @@
 ---
-title: "How-To Roast Coffee with a Popcorn Machine: Air Popper Method"
+title: Air Popper Method
+subtitle: How-To Roast Coffee with an Air Popper Popcorn Machine
 date: 2017-09-04
-description: 
+description: Simple, easy-to-follow instructions detailing how to roast coffee with an air popper popcorn machine.
+image: /images/banner_dark.svg
 tags: Tutorial, Roasters, Air Popper
 ---
 By far and away, the most common pocorn machine used to roast coffee is an air popper. 

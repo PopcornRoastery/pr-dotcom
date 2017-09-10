@@ -5,9 +5,10 @@
     <% } else {%>
     <header>
     <% } %>
-        <h1>
-            <%- post.title %>
-        </h1>
+        <h1><%- post.title %></h1>
+        <% if (post.subtitle) { %>
+        <span class="subtitle"><%- post.subtitle %></span>
+        <% } %>
     </header>
     <div class="article-content">
         <%- post.content %>
@@ -16,7 +17,7 @@
         <section class="container-fluid">
             <div class="row justify-items-center">
                 <div class="col text-center">
-                    <a id="twitterShareButton" class="share-button" href="https://twitter.com/intent/tweet?text=<%- page.title %>&url=<%- url %>&via=PopcornRoastery" data-size="large"
+                    <a id="twitterShareButton" class="share-button" href="https://twitter.com/intent/tweet?text=<%- page.title %>&url=<%- url %>&via=DIYRoasters" data-size="large"
                         target="_blank" rel="noopener" aria-label="Share on Twitter">
                         <i class="si-twitter" aria-hidden="true"></i>
                     </a>

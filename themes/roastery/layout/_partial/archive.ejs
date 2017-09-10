@@ -7,11 +7,25 @@
           <li class="pr-blog-post">
             <a href="<%- url_for(post.path) %>">
               <h3><%- post.title %></h3>
+              <% if (post.image) { %>
+              <img src="<%- post.image %>" alt="Article Image">
+              <% } %>
               <p><%- post.description %></p>
             </a>
           </li>
         <% }) %>
       </ul>
+      <div id="paginator" class="row justify-content-between">
+        <div class="col-4">
+          <a class="btn btn-primary <% if (!page.prev) { %>disabled<% } %>" href="/<%- page.prev_link %>">Previous</a>
+        </div>
+        <div class="col-4 text-center align-self-center">
+          <span>Page <%- page.current %> of <%- page.total %></span>
+        </div>
+        <div class="col-4 text-right">
+          <a class="btn btn-primary <% if (!page.next) { %>disabled<% } %>" href="/<%- page.next_link %>">Next</a>
+        </div>
+      </div>
     </section>
     <aside class="d-none d-md-block col-md-4 col-xl-3 mr-auto">
       <%- partial('sidebar') %>

@@ -1,10 +1,7 @@
 @font-face {
   font-family: 'social-icons';
-  src:  url('/fonts/social-icons.eot?sxj95b');
-  src:  url('/fonts/social-icons.eot?sxj95b#iefix') format('embedded-opentype'),
-    url('/fonts/social-icons.ttf?sxj95b') format('truetype'),
-    url('/fonts/social-icons.woff?sxj95b') format('woff'),
-    url('/fonts/social-icons.svg?sxj95b#social-icons') format('svg');
+  src: url('/fonts/social-icons.eot?sxj95b');
+  src: url('/fonts/social-icons.eot?sxj95b#iefix') format('embedded-opentype'), url('/fonts/social-icons.ttf?sxj95b') format('truetype'), url('/fonts/social-icons.woff?sxj95b') format('woff'), url('/fonts/social-icons.svg?sxj95b#social-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -17,7 +14,6 @@ i {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -26,24 +22,31 @@ i {
 .si-bars:before {
   content: "\e904";
 }
+
 .si-search:before {
   content: "\e902";
 }
+
 .si-google-plus:before {
   content: "\e900";
 }
+
 .si-pinterest:before {
   content: "\e901";
 }
+
 .si-twitter:before {
   content: "\e90e";
 }
+
 .si-youtube-play:before {
   content: "\e903";
 }
+
 .si-instagram:before {
   content: "\e906";
 }
+
 .si-facebook:before {
   content: "\e90c";
 }
@@ -88,6 +91,10 @@ h2 {
   border-radius: 0;
   cursor: pointer;
   opacity: 1.0;
+}
+
+.btn.btn-primary.disabled {
+  opacity: 0.65;
 }
 
 .btn.btn-primary:hover {
@@ -176,6 +183,14 @@ article {
 
 article>header {
   border-bottom: 2px solid rgba(147, 161, 161, 0.5);
+}
+
+article>header .subtitle {
+  color: #dc322f;
+  display: block;
+  font-family: Pacifico, cursive;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
 }
 
 article h1,

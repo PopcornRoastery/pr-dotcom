@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 date: 2017-08-26
-description: This page details Popcorn Roastery's privacy policy.
+description: This page detail DIY Roasters' privacy policy.
 ---
 
 __EFFECTIVE DATE: AUGUST 15, 2017__
@@ -9,7 +9,7 @@ __EFFECTIVE DATE: AUGUST 15, 2017__
 ### 1. INTRODUCTION
 
 #### 1.1. PURPOSE OF POLICY.
-Fjellman Management, LLC dba PopcornRoastery.com (“us,” “we,” or “Company”) is committed to respecting the privacy rights of its visitors and users of this website (the “Site”). We created this Privacy Policy (“Policy”) to give you confidence as you visit and use the Site, and to demonstrate a commitment to fair information practices and the protection of privacy.
+Fjellman Management, LLC dba DIYRoasters.com (“us,” “we,” or “Company”) is committed to respecting the privacy rights of its visitors and users of this website (the “Site”). We created this Privacy Policy (“Policy”) to give you confidence as you visit and use the Site, and to demonstrate a commitment to fair information practices and the protection of privacy.
 
 ### 2. INFORMATION COLLECTION PRACTICES
 

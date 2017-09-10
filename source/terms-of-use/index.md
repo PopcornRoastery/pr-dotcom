@@ -1,12 +1,12 @@
 ---
 title: Terms of Use
 date: 2017-08-26
-description: This page details Popcorn Roastery's Terms of Use.
+description: This page details DIY Roasters' Terms of Use.
 ---
 
 __LAST MODIFIED AUGUST 26, 2017__
 
-1. BINDING EFFECT. This is a binding agreement. By using the Internet site located at https://www.popcornroastery.com (the “Site” or “Service”) or any services provided in connection with the Site, you agree to abide by these Terms of Use, as they may be amended by Fjellman Management, LLC (“Company”) from time to time. Company will post a notice on the Site any time these Terms of Use have been changed or otherwise updated.
+1. BINDING EFFECT. This is a binding agreement. By using the Internet site located at https://diyroasters.com (the “Site” or “Service”) or any services provided in connection with the Site, you agree to abide by these Terms of Use, as they may be amended by Fjellman Management, LLC (“Company”) from time to time. Company will post a notice on the Site any time these Terms of Use have been changed or otherwise updated.
 2. PRIVACY POLICY. Company respects your privacy and permits you to control the treatment of your personal information. A complete statement of Company’s current privacy policy can be found by clicking the “privacy” link at the bottom of the page. Company’s privacy policy is expressly incorporated into this Agreement by this reference.
 3. GOVERNING LAW. This agreement shall be governed, construed, and enforced in accordance with the Laws of the State of Missouri, without regard to its conflict of laws rules.
 4. AGE. The site is intended only for users aged 18 or older. Individuals under the age of 18 are strictly prohibited from using the site and the accounts for any such person shall be terminated upon discovery.

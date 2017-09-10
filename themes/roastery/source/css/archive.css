@@ -11,8 +11,8 @@
 }
 
 #postList li>a {
-    padding: 10px 20px;
     display: block;
+    padding: 10px 20px;
 }
 
 #postList li h3 {
@@ -76,4 +76,8 @@
     color: #657b83;
     text-overflow: ellipsis;
     overflow: hidden;
+}
+
+#paginator {
+    margin-bottom: 40px;
 }

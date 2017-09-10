@@ -1,14 +1,14 @@
 ---
 title: DCMA Policy
 date: 2017-08-26
-description: This page details Popcorn Roastery's DCMA policy.
+description: This page details DIY Roasters' DCMA policy.
 ---
 
 __Digital Millenium Copyright Act Notice__
 
 ### TAKEDOWN POLICY AND PROCEDURES
 
-Fjellman Management, LLC dba PopcornRoastery.com respects the intellectual property rights of others just as it expects third parties to respect its rights. Pursuant to Digital Millennium Copyright Act, Title 17, United States Code, Section 512(c), a copyright owner or their agent may submit a takedown notice to us via our contact information listed below. As an internet service provider, we are entitled to claim immunity from said infringement claims pursuant to the “safe harbor” provisions of the DMCA. To submit a good faith infringement claim to us, you must submit notice to us that sets forth the following information:
+Fjellman Management, LLC dba DIYRoasters.com respects the intellectual property rights of others just as it expects third parties to respect its rights. Pursuant to Digital Millennium Copyright Act, Title 17, United States Code, Section 512(c), a copyright owner or their agent may submit a takedown notice to us via our contact information listed below. As an internet service provider, we are entitled to claim immunity from said infringement claims pursuant to the “safe harbor” provisions of the DMCA. To submit a good faith infringement claim to us, you must submit notice to us that sets forth the following information:
 
 ### NOTICE OF INFRINGEMENT – CLAIM
 
@@ -30,7 +30,7 @@ If you have received a notice of material being takedown because of a copyright 
 2. A description of the material that has been taken down and the original location of the material before it was taken down.
 3. A statement under penalty of perjury that you have a good faith belief that the material was removed or disabled as a result of mistake or misidentification of the material to be removed or disabled.
 4. Your name, address, and telephone number, and a statement that you consent to the jurisdiction of the federal district court for the judicial district in which the address is located (or if you are outside of the United States, that you consent to jurisdiction of any judicial district in which the service provider may be found), and that you will accept service of process from the person or company who provided the original infringement notification.
-5. Email your counter notice to: Jordan Fjellman, Esq. at dcma@popcornroastery.com for prompt action or send to: Jordan Fjellman, 1010 Riverview Drive, Saint Joseph, MO 64503 – Email: dcma@popcornroastery.com. Again, email is encouraged for quick action.
+5. Email your counter notice to: Jordan Fjellman, Esq. at dcma@diyroasters.com for prompt action or send to: Jordan Fjellman, 1010 Riverview Drive, Saint Joseph, MO 64503 – Email: dcma@diyroasters.com. Again, email is encouraged for quick action.
 
 ### REPEAT INFRINGER POLICY
 

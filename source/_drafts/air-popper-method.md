@@ -6,7 +6,8 @@ description: Simple, easy-to-follow instructions detailing how to roast coffee w
 image: /images/banner_dark.svg
 tags: Tutorial, Roasters, Air Popper
 ---
-By far and away, the most common pocorn machine used to roast coffee is an air popper. 
+By far and away, the most common pocorn machine used to roast coffee is an air popper.
+<!-- more --> 
 
 ## Preparation
 
@@ -21,7 +22,7 @@ By far and away, the most common pocorn machine used to roast coffee is an air p
 
 ### Location setup
 
-The roasting process can be a messy one. With plenty of smoke and [coffee chaff](/blog/what-is-coffee-chaff), ventilation is important. Under an oven ventilation hood can work great, and is a fine option. An even better option might be to find an open area, like a garage or outside - this can make cleanup much easier!
+The roasting process can be a messy one. With plenty of smoke and [coffee chaff](/blog/terminology#chaff), ventilation is important. Under an oven ventilation hood can work great, and is a fine option. An even better option might be to find an open area, like a garage or outside - this can make cleanup much easier!
 
 A stable work surface is prefered when roasting coffee. The last thing you need is to be chasing small, hot coffee beans all of the place after you tried to stir them.
 
@@ -32,8 +33,9 @@ One last thing to consider is lighting. Knowning the roast level can be tricky, 
 1. Put the unroasted beans in the popcorn chamber.
 2. Place the lid, including the butter tray, on the air popper. This will help direct the chaff down into your bowl, which should be located directly in front of the machine.
 3. Turn on the air popper. During the first moments of the roast, the beans are still heavy and slow to turn; stiring them can help even out the roast. To stir the beans, remove the butter tray and used the handle of the spoon. (The side of the spoon normally used for stiring is often to large to actually stir the beans effectively.)
-4. After a few minutes, the beans should reach "[First Crack](/)". At this stage, start to monitor them closely. Depending on the desired roast level, you may have to remove the beans any time now. 
-5. WHAT TO DO BEFORE/AFTER/DURING SECOND CRACK
+4. After a few minutes, the beans should reach "[First Crack](/blog/terminology/#first-crack)". At this stage, start to monitor them closely. Depending on the desired roast level, you may have to remove the beans any time now.
+5. At this point, YOU get to decide how much longer to roast the coffee. Over the next minute, or so, the  
+6. A few minutes after 
 6. COOLING
 
 ## Wrapping Up

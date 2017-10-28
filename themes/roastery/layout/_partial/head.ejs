@@ -6,20 +6,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <% if(is_home()) { %>
-    <meta name="description" content="testing">
-    <title>DIY Roasters.com</title>
+    <% if(page.title) { %>
+    <title><%- page.title %> | DIY Roasters</title>
     <% } else { %>
-        <% if(page.title) { %>
-        <title><%- page.title %> | DIY Roasters</title>
-        <% } else { %>
-        <title>DIY Roasters</title>
-        <% } %>
-        <% if(page.description) { %>
-        <meta name="description" content="<%- page.description %>">
-        <% } %>
+    <title>Roasting Coffee at Home with a Popcorn Machine | DIY Roasters</title>
     <% } %>
-    
+
+    <% if(is_home()) { %>
+    <meta name="description" content="We are DIY roasters, here to will help you roast coffee at home with a popcorn machine.">
+    <% } %>
+    <% if(is_archive()) { %> 
+    <meta name="description" content="Find articles about roasting coffee at home, popcorn machine coffee roasters, green coffee beans, and more!">
+    <% } %>
+    <% if(page.description) { %>
+    <meta name="description" content="<%- page.description %>">
+    <% } %>
+
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="194x194" href="/favicon-194x194.png">
